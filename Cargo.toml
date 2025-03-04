@@ -1,7 +1,7 @@
 [workspace]
-members = [ "async-openai", "async-openai-*", "examples/*" ]
+members = [ "clia-async-openai", "async-openai", "async-openai-*", "examples/*" ]
 # Only check / build main crates by default (check all with `--workspace`)
-default-members = ["async-openai", "async-openai-*"]
+default-members = ["clia-async-openai", "async-openai", "async-openai-*"]
 resolver = "2"
 
 [workspace.package]
