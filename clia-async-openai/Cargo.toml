@@ -10,10 +10,10 @@ rust-version = { workspace = true }
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/64bit/async-openai"
-repository = "https://github.com/64bit/async-openai"
+repository = "https://github.com/clia-mod/async-openai"
 
 [features]
-default = ["rustls"]
+default = ["rustls-webpki-roots"]
 # Enable rustls for TLS support
 rustls = ["reqwest/rustls-tls-native-roots"]
 # Enable rustls and webpki-roots
